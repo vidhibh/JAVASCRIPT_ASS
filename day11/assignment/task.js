@@ -22,16 +22,7 @@ function createMultiplier(multiplier) {
     };
 }
 
-let double = createMultiplier(2);
-console.log(double(5));
 
-let triple = createMultiplier(3);
-console.log(triple(4));
-
-
-let updateUser = createUser();
-updateUser();
-updateUser();
 
 // Task 6
 function counterFactory() {
